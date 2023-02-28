@@ -1,17 +1,12 @@
-console.log(document.body.firstElementChild)
 
-const categories = document.getElementById("categories")
-console.log(categories)
+const categoriesNumber = document.querySelectorAll(".item")
+console.log("Number of categories:",categoriesNumber.length)
 
-const itemli = document.getElementsByClassName("item")
-console.log(itemli)
+const itemEls = document.querySelectorAll(".item")
 
-
-const number = 0
-
-categories.forEach(element => {
-    const eachli = element.querySelectorAll("li")
-    console.log(eachli)
-    number = eachli.length
+itemEls.forEach(ele => {
+    const elementLength = ele.querySelectorAll("li")
+    const h2 = ele.querySelector("h2")
+    console.log("Categories:",h2.textContent)
+    console.log("Elements:",elementLength.length)
 })
- console.log(number)
