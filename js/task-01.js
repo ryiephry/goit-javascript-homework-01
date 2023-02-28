@@ -1,4 +1,4 @@
-
+// my keyboard doesnt work when i press template string , like the key does nothing 
 const categoriesNumber = document.querySelectorAll(".item")
 console.log("Number of categories:",categoriesNumber.length)
 
