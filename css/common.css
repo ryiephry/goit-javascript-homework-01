@@ -29,13 +29,14 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  padding: 0px;
 }
 
 .gallery-Item {
   list-style: none;
   margin: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .imageTag {
