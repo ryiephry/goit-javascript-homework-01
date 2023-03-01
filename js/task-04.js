@@ -19,13 +19,9 @@ function incrementFunction() {
 }
 
 
+sections.decrement.setAttribute("class", "inButtons")
 
-
-
-
-
-
-
+sections.increment.setAttribute("class", "inButtons")
 
 
 

@@ -50,3 +50,14 @@ button {
 }
 
 /*number 4 */
+#value {
+  font-size: 22px;
+  color: black;
+
+}
+
+.inButtons {
+  padding: 50px;
+  margin: 30px;
+  background: linear-gradient(rgb(240, 148, 148), rgb(52, 52, 134));
+}
