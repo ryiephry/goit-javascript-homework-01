@@ -13,8 +13,7 @@ const images = [
   },
 ];
 const galleryEl = document.querySelector(".gallery");
-const h2 = document.querySelector("h2")
-h2.setAttribute("class", "h2Gallery")
+
 
 const mainmarkEl = images.map((image) => 
  
@@ -26,3 +25,5 @@ const mainmarkEl = images.map((image) =>
 galleryEl.insertAdjacentHTML("beforeend", mainmarkEl);
 galleryEl.insertAdjacentHTML("beforebegin", "<h2>Gallery</h2>");
 
+const h2 = document.querySelector("h2")
+h2.classList.add("h2Gallery");
