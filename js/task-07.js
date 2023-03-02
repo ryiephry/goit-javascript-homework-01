@@ -1,4 +1,4 @@
-const controlEL = document.getElementById("font-size-control"); console.log(controlEL)
+const controlEL = document.getElementById("font-size-control"); 
 const textEL = document.getElementById("text");
 
 controlEL.addEventListener("input", event => {
