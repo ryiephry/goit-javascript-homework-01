@@ -59,5 +59,20 @@ button {
 .inButtons {
   padding: 50px;
   margin: 30px;
-  background: linear-gradient(rgb(240, 148, 148), rgb(52, 52, 134));
+  background: linear-gradient(to right, rgb(231, 115, 115), rgb(78, 78, 173));
 }
+
+.inButtons:hover {
+  background: linear-gradient(rgb(78, 78, 173), rgb(231, 115, 115));
+}
+
+/* number 5 */
+#name-input {
+  color: rgb(78, 78, 173);
+}
+
+.outputColor {
+  color: rgb(231, 115, 115);
+}
+
+/* number 6 */
