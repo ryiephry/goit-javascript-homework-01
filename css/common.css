@@ -85,3 +85,7 @@ button {
 }
 
 /* number 7 */
+.controlNumber {
+  font-weight: 700;
+  color: brown;
+}
