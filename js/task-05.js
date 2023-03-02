@@ -5,7 +5,6 @@ const addingText = (event) => {
   
     output.innerHTML= event.currentTarget.value
 };
-
 input.addEventListener("input", addingText)
 
 output.setAttribute("class","outputColor")

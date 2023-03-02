@@ -76,3 +76,12 @@ button {
 }
 
 /* number 6 */
+.valid {
+  color: #4caf50;
+}
+
+.invalid {
+  color: #f44336;
+}
+
+/* number 7 */
