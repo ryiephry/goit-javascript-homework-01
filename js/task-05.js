@@ -1,10 +1,20 @@
 const input = document.getElementById("name-input")
-const output = document.querySelector("h1")
+const output = document.querySelector("#name-output")
+
 
 const addingText = (event) => {
   
-    output.innerHTML= event.currentTarget.value
+      
+     
+  if (input.value != "") {
+        output.innerHTML = event.currentTarget.value
+    } else  {
+      output.textContent = "Anonymous"
+    }
+   
+       
+  
 };
 input.addEventListener("input", addingText)
 
-output.setAttribute("class","outputColor")
+output.setAttribute("class", "outputColor")

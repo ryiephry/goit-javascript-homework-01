@@ -17,4 +17,3 @@ const eventCheck = (event) => {
 };
 form.addEventListener("submit", eventCheck);
 
-
