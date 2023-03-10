@@ -6,13 +6,13 @@ const addingText = (event) => {
   
       
      
-  if (input.value != "") {
+  if (input.value != " ") {
         output.innerHTML = event.currentTarget.value
     } else  {
-      output.textContent = "Anonymous"
+       output.textContent = "Anonymous"
     }
    
-       
+  
   
 };
 input.addEventListener("input", addingText)
