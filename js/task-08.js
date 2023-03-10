@@ -8,7 +8,7 @@ const eventCheck = (event) => {
         elements: { email, password }
           } = event.currentTarget;
 
-    if (email.value === "" || password.value === " ") {  // states that if passowrd.val === " " blank space / space bar or tab it is still counted like 0 
+    if (email.value === "" || password.value.trim() === "") {  // states that if passowrd.val === " " blank space / space bar or tab it is still counted like 0 
         return alert("either your email or password was not entered correctly")
 }   else {
         console.log("your email is:", email.value, "your password is:", password.value)  
